@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+nav {
+    width: 100%;
+    padding-top: 2%;
+    position:fixed;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+li:hover a{
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
+
+ul li a {
+    font-size: 25px;
+    font-family:'Jost', 'serif';
+    text-decoration:none;
+    line-height:30px;
+    color:white;
+    padding:20px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+nav .left{
+    float:left;
+}
+nav .right{
+    float:right;
+    padding-top:0%;
+    padding-right:2%;
+}
+
+.msg-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    color:white;
+    font-size:50px;
+    font-family: 'Jost', 'serif';
+    -webkit-text-stroke-color: black;
+    
+  }
