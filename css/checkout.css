@@ -1,0 +1,78 @@
+.checkout form{
+    max-width: 50rem;
+    backdrop-filter: blur(10px);
+    margin:0 auto;
+    border:0.5rem solid white;
+    padding:2rem;
+ }
+ 
+ .checkout form h3{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    padding: 2rem 0;
+    color:black;
+ }
+ 
+ .checkout form .cart-items{
+    padding:2rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+ }
+ 
+ .checkout form .cart-items h3{
+    color:white;
+ }
+ 
+ .checkout form .cart-items p{
+    display: flex;
+    align-items: center;
+    gap:1.5rem;
+    justify-content: space-between;
+    margin:1rem 0;
+    line-height: 1.5;
+    font-size: 2rem;
+ }
+ 
+ .checkout form .cart-items p .name{
+    color:white;
+ }
+ 
+ .checkout form .cart-items p .price{
+    color:#dd7230;
+ }
+ 
+ .checkout form .cart-items .grand-total{
+    background-color: white;
+    color: black;
+    padding:.5rem 1.5rem;
+ }
+ 
+ .checkout form .cart-items .grand-total .price{
+    color:#dd7230;
+ }
+ 
+ .checkout form .user-info p{ 
+    font-size: 2rem;
+    color: white;
+    line-height: 1.5;
+    padding:1rem 0;
+ }
+ 
+ .checkout form .user-info p i{
+    color:white;
+    margin-right: 1rem;
+ }
+ 
+ .checkout form .user-info p span{
+    color:white;
+ }
+ 
+ .checkout form .user-info .box{
+    width: 100%;
+    border: 0.5rem solid white;
+    color: black;
+    padding:1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+ }

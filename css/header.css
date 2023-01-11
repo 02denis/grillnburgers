@@ -1,0 +1,133 @@
+.header{
+    position: sticky;
+    top:0; left:0; right:0px;
+    padding:2rem;
+    z-index: 1;
+    padding-right: 3rem;
+    background-color: rgba(0,0,0,0.4);
+ }
+ 
+ .header .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+ }
+ 
+ .header .flex .logo{
+    font-size: 2.5rem;
+ }
+ 
+ .header .flex .navbar a{
+    font-size: 25px;
+    color: white;
+    margin:0 1rem;
+ }
+ 
+ .header .flex .navbar a:hover{
+    color: #dd7230;
+ }
+ 
+ .header .flex .icons > *{
+    margin-left: 1.5rem;
+    font-size: 3rem;
+    cursor: pointer;
+ }
+ 
+ .header .flex .icons span{
+    font-size: 2rem;
+ }
+ 
+ #menu-btn{
+    display: none;
+ }
+ 
+ .header .flex .profile{
+    background-color: rgba(0,0,0,0.4);
+    padding:1.5rem;
+    text-align: center;
+    position: absolute;
+    top:135%;
+    right:0px;
+    width: 30rem;
+    display: none;
+    animation: fadeIn .2s linear;
+ }
+ 
+ .header .flex .profile.active{
+    display: inline-block;
+ }
+ 
+ @keyframes fadeIn {
+    0%{
+       transform: translateY(1rem);
+    }
+ }
+ 
+ .header .flex .profile .name{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+ }
+ 
+ .header .flex .profile .account{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    color:black;
+ }
+ 
+ .header .flex .profile .account a{
+    color: white;
+ }
+ 
+ .header .flex .profile .account a:hover{
+    color:#dd7230;
+    text-decoration: underline;
+ }
+ 
+ .text-intro{
+    width:50%;
+    padding-left: 5em;
+    font-family: 'Raleway';
+    font-size: 25px;
+ }
+ 
+ .about{
+    width:50%;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 25px;
+ }
+ 
+ 
+ html,
+ body {
+   height: 100%;
+   width: 100%;
+   margin: 0;
+ }
+ section {
+   height: 100%;
+   width: 100%;
+ }
+ section:nth-child(1) {
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+ }
+ section:nth-child(2) {
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+ }
+ 
+ .text-msg{
+    display: flex;
+    align-items: center;
+    color: white;
+    min-height: 80vh;
+    font-size: 90px;
+    font-family: 'Raleway';
+    -webkit-text-stroke-color: black;
+ }
