@@ -64,7 +64,7 @@ section{
 }
 
 .delete-btn{
-   background-color: red;
+   background-color: grey;
 }
 
 .option-btn{
@@ -74,7 +74,7 @@ section{
 .btn:hover,
 .delete-btn:hover,
 .option-btn:hover{
-   letter-spacing: 0.5rem;
+   background-color:red;
 }
 
 .flex-btn{
@@ -102,7 +102,7 @@ section{
 
 .message i{
    font-size: 2.5rem;
-   color:red;
+   color:grey;
    cursor: pointer;
 }
 
@@ -126,7 +126,7 @@ section{
    text-align: center;
    width: 100%;
    font-size: 2rem;
-   color:red;
+   color:grey;
    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 
