@@ -55,7 +55,7 @@ if(!isset($admin_id)){
       ?>
       <p>REZERVARI IN ASTEPTARE</p>
       <h3><?= $total_pendings; ?><span></span></h3>
-      <a href="reserv_placed.php" class="btn">REZERVARI</a>
+      <a href="waitlist.php" class="btn">REZERVARI</a>
       </div>
 
    <div class="box">

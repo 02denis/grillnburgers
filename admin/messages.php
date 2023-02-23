@@ -52,7 +52,7 @@ if(isset($_GET['delete'])){
       <p> Numar telefon: <span><?= $fetch_messages['number']; ?></span> </p>
       <p> Email: <span><?= $fetch_messages['email']; ?></span> </p>
       <p> Feedback: <span><?= $fetch_messages['message']; ?></span> </p>
-      <a style="margin-top:20px" href="messages.php?delete=<?= $fetch_messages['id']; ?>" class="delete-btn" onclick="return confirm('Stergi recenzia?');">Sterge</a>
+      <a style="margin-top:20px" href="messages.php?delete=<?= $fetch_messages['id']; ?>" class="delete-btn" onclick="return confirm('Stergi mesajul?');">Sterge</a>
    </div>
    <?php
          }

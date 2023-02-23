@@ -84,11 +84,11 @@ if(isset($_POST['update'])){
       <input type="number" min="0" max="9999999999" required placeholder="pretul produsului" name="price" onkeypress="if(this.value.length == 10) return false;" class="box" value="<?= $fetch_products['price']; ?>">
       <span>Modificare categorie</span>
       <select name="category" class="box" required>
-         <option selected value="<?= $fetch_products['category']; ?>"><?= $fetch_products['category']; ?></option>
+         <option style="color:black" selected value="<?= $fetch_products['category']; ?>"><?= $fetch_products['category']; ?></option>
          <option value="aperitiv" style="color:black">aperitiv</option>
-         <option value="fel_principal">fel principal</option>
-         <option value="desert">desert</option>
-         <option value="bautura">bautura</option>
+         <option value="fel_principal" style="color:black">fel principal</option>
+         <option value="desert" style="color:black">desert</option>
+         <option value="bautura" style="color:black">bautura</option>
       </select>
       <span>Modifica imaginea</span>
       <input type="file" name="image" class="box" accept="image/jpg, image/jpeg, image/png, image/webp">

@@ -84,12 +84,13 @@ if (isset($_GET['delete'])) {
       <div class="box-container">
 
          <?php
-         $select_orders = $conn->prepare("SELECT * FROM `orders`");
+         $select_orders = $conn->prepare("SELECT * FROM `orders` WHERE res_status='in asteptare'");
          $select_orders->execute();
          if ($select_orders->rowCount() > 0) {
             while ($fetch_orders = $select_orders->fetch(PDO::FETCH_ASSOC)) {
          ?>
                <div class="box">
+                  <p> ID utilizator: <span><?= $fetch_orders['user_id']; ?></span> </p>
                   <p> Data plasarii: <span><?= $fetch_orders['placed_on']; ?></span> </p>
                   <p> Nume: <span><?= $fetch_orders['name']; ?></span> </p>
                   <p> Email: <span><?= $fetch_orders['email']; ?></span> </p>
@@ -115,7 +116,7 @@ if (isset($_GET['delete'])) {
          <?php
             }
          } else {
-            echo '<p class="empty">Nu sunt rezervari!</p>';
+            echo '<p class="empty">Nu sunt rezervari in asteptare!</p>';
          }
          ?>
 
