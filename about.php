@@ -43,7 +43,7 @@ if (isset($_SESSION['user_id'])) {
                 <div style="font-size:24px"><br>
                     ..Grilln'Burgers a apărut din pasiunea noastră pentru mâncarea delicioasă și atmosfera prietenoasă!
                     Situat în inima Timișoarei, restaurantul nostru este gazda ideală pentru a petrece timp de calitate alături de familie, prieteni sau parteneri de afaceri. </div>
-                <p>Timisoara: Strada Barbu Iscovescu 2 - 08-22 -<button id="button1">Vezi harta</button></p><br>
+                <p>Timisoara: Strada Barbu Iscovescu | 08:00 - 22:30 |<button id="button1">Vezi harta</button></p><br>
                 <div id="iframeHolder1"></div>
             </div>
 

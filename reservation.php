@@ -61,7 +61,6 @@ if (isset($_SESSION['user_id'])) {
                      <p>Email: <span><?= $fetch_orders['email']; ?></span></p>
                      <p>Telefon: <span><?= $fetch_orders['number']; ?></span></p>
                      <p>Data rezervării: <span><?= $fetch_orders['meeting_time']; ?></span></p>
-                     <p>Metodă plată: <span><?= $fetch_orders['method']; ?></span></p>
                      <p>Meniu: <span><?= $fetch_orders['total_products']; ?></span></p>
                      <p>Preț total: <span>RON<?= $fetch_orders['total_price']; ?></span></p>
                      <p>Status: <span style="color:<?php if ($fetch_orders['res_status'] == 'in asteptare') {

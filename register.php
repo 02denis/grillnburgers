@@ -54,12 +54,12 @@ if(isset($_POST['submit'])){
             $mail = new PHPMailer(true);
    
             $mail->isSMTP();  
-            $mail->Host='smtp.gmail.com';
+            $mail->Host='smtp.office365.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'washu.origins@gmail.com';
-            $mail->Password = 'awvufmvojduvwclc';
+            $mail->Username = 'senis022@outlook.com';
+            $mail->Password = 'Apaplata112@';
 
-            $mail->setFrom('washu.origins@gmail.com');
+            $mail->setFrom('senis022@outlook.com');
 
             $mail->addAddress($email);
 
